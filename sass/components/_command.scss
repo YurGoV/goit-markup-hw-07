@@ -1,0 +1,74 @@
+.command {
+    padding: 95px 0px;
+    background: #F5F4FA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.command--list {
+    display: flex;
+
+    justify-content: space-between;
+
+    &__persons {
+        padding: 30px 0px;
+    }
+    &__names {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-bottom: 10px;
+    }
+    &__proffession {
+        font-size: 16px;
+        line-height: 1.67;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    &__items {
+        width: 270px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+    &__social {
+        display: flex;
+        width: 206px;
+        height: 44px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-top: 16px;
+        padding: 0;
+        justify-content: space-between;
+    }
+}
+
+
+.socials--links {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--comm-social-link);
+    transition: color var(--transitions-anime), background var(--transitions-anime);
+
+    &:hover,
+    &:focus {
+    background: var(--hover-focus);
+    color: #fff;
+    border-radius: 50%;
+    }
+    &__svg {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+    }
+}

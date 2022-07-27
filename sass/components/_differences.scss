@@ -1,0 +1,44 @@
+
+.difference{
+    padding: 95px 0px;
+
+}
+
+.difference--list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+	margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &__items {
+        width: 270px;
+    }
+    &__header {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        margin-bottom: 10px;
+    }
+    &__iconbox {
+        display: flex;
+        width: 270px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5F4FA;
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+    &__txt {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}
+

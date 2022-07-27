@@ -1,0 +1,77 @@
+.page--header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+ .header--line {
+    border-bottom: 1px solid #ECECEC;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.header--nav,
+.header--list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 295px;
+
+    &__items {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
+}
+// у стандартному css по іншому
+.header--nav {
+    margin-left: 95px;
+}
+
+.header--contacts {
+    display: flex; 
+    padding: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    justify-content: space-between;
+
+    &__item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    &__item:last-child {
+        margin-right: 0px;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        color: var(--main-grey);
+        min-width: max-content;
+    }
+
+    &__links:hover,
+    &__links:focus {
+        fill: var(--hover-focus);
+    }
+
+    &__icons {
+        display: block;
+        margin-right: 10px;
+        fill: currentColor;
+    }
+
+    &__icons:hover,
+    &__icons:focus {
+        fill: var(--hover-focus);
+    }
+}
+

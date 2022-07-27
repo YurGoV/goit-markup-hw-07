@@ -1,0 +1,36 @@
+.whatwedo {
+    margin-left: auto;
+	margin-right: auto;
+    padding-bottom: 95px;
+}
+
+.whatwedo--list {
+    display: flex;
+    justify-content: space-between;
+
+    &__cards {
+        position: relative;
+    }
+    &__txtposition {
+        display: flex;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        background-color: rgba(47, 48, 58, 0.8);
+    }
+    &__txt {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+}
+
